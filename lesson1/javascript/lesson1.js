@@ -204,3 +204,9 @@ let square = 2 *(height*width + height*length + width*length);
 //2*(4+2+8)= 2* 14 = 28
 console.log(square);
 // console.log(2 *(height*width + height*length + width*length));
+
+//преобразование строки в число
+age = "12 65 age 99";
+width = "1.6em 9em";
+age = parseInt(age);//хотим прочитать целое число (читаем до первого не числового символа)
+console.log(age);
